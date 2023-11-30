@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> landing page</title>
+        <style type="text/css">
+            *{padding: 0;margin:0; box-sizing: border-box; font-family:sans-serif;}
+            header{
+                width:100%;
+                height:100vh;
+                background:url(watch.jpg) ;
+                background-size:50% 89%;
+                background-repeat: no-repeat;
+                background-position: bottom right;
+            }
+            nav{
+                width:100%;
+                height:70px;
+                padding:0px 70px;
+                background:light palevioletred;
+                color:black;
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                box-shadow: 2px 0px 5px pink;
+            }
+            .logo{
+                font-weight: bold;
+                font-size: 2em;
+                letter-spacing: 2px;
+
+            }
+            .logo span{
+                color: pink;
+            }
+            .menu a{
+                text-decoration: none;
+                color:black;
+                padding: 10px 20px;
+            }
+            .menu a:last-child{
+                background:pink;
+                color:black;
+                border-radius: 8px;
+            }
+            .h-text{
+                position: absolute;
+                top: 30%;
+                left: 5%;
+                padding: 15px;
+            }
+            .h-text p{
+                color: #262626;
+                letter-spacing: 3px;
+                font-weight: bold;
+
+            }
+            .h-text h1{
+                font-size: 4em;
+                line-height: 1.5em;
+            }
+            .h-text h1 span{
+                color:pink;
+            }
+            .h-text h2{
+                margin-bottom: 0.7em;
+                
+            }
+
+            #order{
+                text-decoration: none;
+                color: black;
+                background: pink;
+                border-radius: 8px;
+                padding: 10px 20px;
+                margin-top: 0.5em;
+            }
+            #dis{
+                text-decoration: none;
+                color: white;
+                background: #262626;
+                padding: 8px 20px;
+                border-radius: 8px;
+            }
+            .menu a:hover{
+                background-color:pink;
+                color: black;
+                border-radius: 8px;
+            }
+        
+        </style>
+        
+        
+    </head>
+    <body>
+    <header>
+        <nav >
+            <div class="logo">STAY CONNECTED <span>ANYTIME</span></div>
+            <div class="menu">
+                <a href="#">HOME</a>
+                <a href="#">SPECS</a>
+                <a href="#">REVIEWS</a>
+                <a href="#">BUY NOW</a>
+            </div>
+        </nav>
+        <div class="h-text">
+            <p>FREE DELIVERY</p>
+        <h1>SMART WATCH 2.0</h1>
+    <h2>Experience the future on your wrist
+        <br>with our cutting-edge smartwatch</h2>
+    <a href="#" id ="order" >ORDER NOW!!</a>
+    <a href="#" id="dis" >30% Off HURRY!!</a>   
+         </div>
+         
+    </header>
+    </body>
+</html>
